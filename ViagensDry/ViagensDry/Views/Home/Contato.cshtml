@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Contato";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="conteudo">
+
+    <div class="w3-section">
+
+        <p>
+            <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <font color="00008B">Camaçari-Bahia, Brasil</font>
+        </p>
+
+        <p>
+            <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><font color="00008B">Telefone: 11 9999-8088</font>
+        </p>
+        <p>
+            <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><font color="00008B"> Email: agenciadry@gmail.com</font>
+        </p>
+    </div>
+    <br>
+
+    <p><font color="00008B"> Entre em contato:</font></p>
+
+    <form action="/pagina-processa-dados-do-form" method="get">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
+
+</div>
