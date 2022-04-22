@@ -1,6 +1,6 @@
 # ViagensDry
 
-Projeto de agência de viagens desenvolvida durante o curso de Desenvolvimento FullStack da RecodePro, em 2021 - 2022.
+Projeto agência de viagens desenvolvida durante o curso de Desenvolvimento FullStack da RecodePro, de 2021 - 2022.
 
 ## Autora
 
@@ -9,6 +9,6 @@ Projeto de agência de viagens desenvolvida durante o curso de Desenvolvimento F
 
 #Tecnologias
 
--HTML
--CSS
-C# .NET
+HTML, 
+CSS, 
+C# .NET.
